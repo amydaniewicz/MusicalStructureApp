@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SongAdapter extends ArrayAdapter<Song> {
 
@@ -24,7 +25,7 @@ public class SongAdapter extends ArrayAdapter<Song> {
      * @param context   The current context. Used to inflate the layout file.
      * @param songs     A List of Song objects to display in a list
      */
-    public SongAdapter(Activity context, ArrayList<Song> songs) {
+    public SongAdapter(Activity context, List<Song> songs) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
         // The second argument is used when the ArrayAdapter is populating a single TextView.
         // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not

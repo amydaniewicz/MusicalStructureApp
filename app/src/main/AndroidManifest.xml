@@ -11,13 +11,16 @@
         <activity android:name="com.example.android.musicalstructure.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name="com.example.android.musicalstructure.SongListActivity"
-            android:label="@string/category_song_list"/>
+            android:label="@string/category_song_list"
+             />
         <activity android:name="com.example.android.musicalstructure.NowPlayingActivity"
-            android:label="@string/category_now_playing"/>
+            android:label="@string/category_now_playing"
+            />
     </application>
 
 </manifest>

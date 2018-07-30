@@ -13,14 +13,10 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Musical Structure</string>
-
-    <!-- Category name for the Song List [CHAR LIMIT=20] -->
     <string name="category_song_list">Song List</string>
-
-    <!-- Category name for the Now Playing [CHAR LIMIT=20] -->
     <string name="category_now_playing">Now Playing</string>
-    <string name="button_name">PLAY</string>
+    <string name="play_button_name">PLAY</string>
+    <string name="home_button_name">HOME</string>
 
 </resources>
